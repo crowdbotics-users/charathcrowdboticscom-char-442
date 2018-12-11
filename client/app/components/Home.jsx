@@ -8,7 +8,7 @@ var Home = React.createClass({
       <div>
         <div className="row">
           <Card id="home" className="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8">
-            <h1 className="text-center">Welcome to first-node-app-136!</h1>
+            <h1 className="text-center">Welcome to My First Node App!</h1>
             <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
             <CardText>Don't have an account? <Link to={`/signup`}>Create one</Link></CardText>
           </Card>
